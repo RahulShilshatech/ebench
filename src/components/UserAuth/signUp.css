@@ -1,0 +1,32 @@
+.btn
+        {
+
+  		    color: #FFFFFF;
+		    border: #ffdead;
+		    font-size: 13px;
+		    font-weight: 500;
+		    border-radius: 10px;
+		    box-shadow: 0 0 2px #616161;
+		    display: flex;
+		    margin: 0 auto;
+		    transition: .3s ease-in-out;
+		    height: 40px;
+		    width: 100%;
+		    align-items: center;
+		    justify-content: center;
+		    background-color: #117A65;
+		}
+		.form-control
+		{
+			margin-right: 10px;
+		}
+		body{
+
+		background-color: #82E0AA ;
+        }
+        .hii
+        {
+            margin-top: 150px;
+            margin-left: 650px;
+            width: 100px;;
+        }

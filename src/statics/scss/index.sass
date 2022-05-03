@@ -1,0 +1,83 @@
+@import "variable.sass"
+@import '~semantic-ui-css/semantic.min.css'
+
+@import "./partials/_profile"
+@import "./partials/_vendor"
+@import "./partials/_advertise"
+@import "./partials/_manageadvertise"
+@import "./partials/_landing"
+@import "./partials/footer"
+
+@import "./partials/_user"
+@import "./partials/_message"
+@import "./partials/_project"
+@import "./partials/_compny"
+
+@import "~slick-carousel/slick/slick.css"
+@import "~slick-carousel/slick/slick-theme.css"
+*
+    font-family: 'Poppins', sans-serif
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+    -webkit-appearance: none
+    -moz-appearance: none
+    appearance: none
+    margin: 0
+
+.redToast
+    background: map-get($fontColor, 'toastRed')
+
+.greenToast
+    background: map-get($fontColor, 'green')
+
+.footer-contianer
+    margin-top: 2rem
+    background: map-get($fontColor,'orange')
+.first-section
+    padding-top: 1rem
+    img
+        height: 65px
+        max-width: 234px
+    p
+        color: map-get($fontColor,'white')
+        font-size: map-get($size,'one' )
+        padding-top: 1rem
+    ul
+        list-style: none
+        li
+            padding-top: 1rem
+            a
+                color: map-get($fontColor,'white')
+        h5
+            font-weight: 900
+            color: map-get($fontColor,'white')
+// .container__footer
+//     // margin: 0 !important
+body,html
+    height: 100%
+
+.bg-color
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/838/426/non_2x/abstract-blue-gradient-with-white-wavy-lines-pattern-background-and-texture-vector.jpg")
+    // height: 100%
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+.text-center
+    text-align: center
+.end
+    text-align: end
+#root
+    height: 100%
+.mt-0
+    margin-top: 0!important
+.pl-0
+    padding-left: 0!important
+.mr-1
+    margin-right: .8rem!important
+.text-right
+    text-align: right
+.font-weight-bold
+    font-weight: bold
+.padd-2
+    padding: 1.4rem

@@ -1,0 +1,183 @@
+.advertise-sidebar
+    padding: 2rem
+    background: #fff
+    box-shadow: 3px 5px 5px 2px rgba(0, 0, 0, 0.2)
+    height: 100%
+    p
+        font-size: 20px
+        font-weight: bold
+    .fas
+        margin-right: 2rem
+    .bottom-div
+        margin-top: 6rem
+    .ui.list
+        margin-top: 4rem
+    .active
+        border: 1px solid #0072b1
+        border-radius: 30px
+        padding: 1rem!important
+        color: #0072b1
+        transition: 0.5s
+        &:hover
+            cursor: pointer
+            background: #0072b1
+            color: #fff
+            &::before
+                backface-visibility: hidden
+                border-color: #fff
+                transition: width 350ms ease-in-out
+                width: 70%
+.dropdown-menu
+    -webkit-transition: all .5s ease-out
+    transition: all .5s ease-out
+    transform: rotateX(90deg)
+    transform-origin: top
+    opacity: 0
+    display: none
+    width: 100%
+    border: none
+
+.open,.dropdown-menu
+    opacity: 1
+    transform: rotateX(0deg)
+    transform-origin: top
+    width: 100%
+    display: block
+    padding: 1rem
+
+.mt-3
+    margin-top: 2rem
+    .top-content
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-bottom: 2rem
+        p
+            font-size: 20px
+            margin-bottom: 0
+            font-weight: bold
+    .overlay
+        border-radius: 12px
+        background: #fff
+        box-shadow: 3px 5px 5px 2px rgba(0, 0, 0, 0.2)
+    .ui.attached.tabular.menu
+        background: #fff
+        width: 100%
+        min-width: 830px
+    .ui[class*="vertically divided"].grid > .row:before
+        box-shadow: none
+    .ui.segment
+        padding: 0
+    .ui.tabular.menu .active.item
+        background: #0d69af
+        color: #fff
+
+.fa-home:before
+    font-size: 32px!important
+.card-graph
+    width: 850px!important
+.advertse
+    margin-top: 3.1rem!important
+.bg-white
+    background: #fff
+.text
+    background: none
+    color: #0d69af
+    &:hover
+        color: #000
+#submenu
+    .item
+        padding-left: 3rem
+        padding-bottom: .5rem
+        font-size: 13.5px
+
+.dropbtn
+    color: white
+    padding: 16px
+    font-size: 16px
+    border: none
+    cursor: pointer
+.dropdown
+    position: relative
+    display: inline-block
+.dropdown-content
+    display: none
+    position: absolute
+    background-color: #f9f9f9
+    min-width: 160px
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+    z-index: 1
+.dropdown-content a
+    color: black
+    padding: 12px 16px
+    text-decoration: none
+    display: block
+.dropdown-content a:hover
+    background-color: #f1f1f1
+
+.dropdown:hover .dropdown-content
+    display: block
+
+.task-management
+    .prjct
+        display: flex
+        justify-content: space-between
+        align-items: center
+        h3
+            margin-bottom: 1rem
+        .css-yk16xz-control
+            width: 100px
+            border: 0
+            .css-1okebmr-indicatorSeparator
+                display: none
+    .card-bg
+        background: #f5f9f9
+        padding: 1rem
+        border-radius: 12px
+        .todo
+            display: flex
+            justify-content: space-between
+            align-items: center
+            .crcle
+                display: flex
+                justify-content: center
+                align-items: center
+                color: green
+                width: 20px
+                height: 20px
+                background: #e8f1f0
+                border-radius: 23px
+        .add-card
+            background: #e8f1f0
+            border-radius: 5px
+            display: flex
+            justify-content: center
+            align-items: center
+            color: green
+            margin-top: 1rem
+            padding: .6rem
+            font-size: 23px
+        .card
+            padding: 1rem
+            width: 327px
+            .card-sec
+                display: flex
+                justify-content: space-between
+                align-items: center
+            p
+                color: #a5a5a5
+        .pt-2
+            padding-top: 1rem
+
+.invoice
+    .btn-flex
+        display: flex
+        justify-content: space-between
+        align-items: center
+        .ui.basic.button, .ui.basic.buttons .button
+            margin-left: 1rem
+.serch-invoice
+    margin-top: 2rem
+    .ui.icon.input > input
+        border-radius: 5px
+        width: 350px
